@@ -18,8 +18,6 @@ import type { StrictOptions, State } from '../types'
 // Match any valid CSS units followed by a separator such as ;, newline etc.
 const unitRegex = new RegExp(`^(${units.join('|')})(;|,|\n| |\\))`)
 
-console.log('yo')
-
 export default function TaggedTemplateExpression(
   path: any,
   state: State,
