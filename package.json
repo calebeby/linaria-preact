@@ -49,7 +49,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "prettier": {
-    "semi": false,
     "trailingComma": "all",
     "singleQuote": true
   },
